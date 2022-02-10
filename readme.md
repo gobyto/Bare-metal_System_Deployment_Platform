@@ -1,9 +1,21 @@
 ```
-bash Core_Install_v3.1.sh -dd 'https://odc.cxthhhhh.com/SyStem/CentOS/CentOS_7.X_NetInstallation_Final_v9.2.vhd.gz'
+
+
+
+wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/gobyto/Bare-metal_System_Deployment_Platform/main/Core_Install_v3.1.sh' && bash Core_Install.sh -dd 'https://odc.cxthhhhh.com/SyStem/CentOS/CentOS_7.X_NetInstallation_Final_v9.2.vhd.gz'
+
+
+
 ```
 ----------------------------------------------------
 ```
+
+
 wget --no-check-certificate -qO Core_Install.sh 'https://raw.githubusercontent.com/gobyto/Bare-metal_System_Deployment_Platform/main/Core_Install_v3.1.sh' && bash Core_Install.sh -dd 'https://odc.cxthhhhh.com/SyStem/Bare-metal_System_Deployment_Platform/CXT_Bare-metal_System_Deployment_Platform_v3.6.vhd.gz'
+
+
+
+
 ```
 CXT裸机系统部署平台（自定义安装任意系统）
 CXT裸机系统部署平台（自定义安装任意系统）-CXT - Enjoy Life | 生活、技术、交友、分享
